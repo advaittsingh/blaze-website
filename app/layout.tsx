@@ -17,6 +17,10 @@ const poppinsMedium = localFont({
 export const metadata: Metadata = {
   title: 'BLAAZE - Lead The Thrill',
   description: 'BLAAZE Entertainment Center - Discover the Fun Zone',
+  icons: {
+    icon: '/Logo-typo-4.png',
+    apple: '/Logo-typo-4.png',
+  },
 }
 
 export default function RootLayout({
