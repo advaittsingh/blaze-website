@@ -35,24 +35,30 @@ export default function InstagramFeed() {
           // Fallback to mock posts with proper structure
           setPosts([
             {
+              id: 'mock-1',
               url: 'https://www.instagram.com/p/example1/',
-              media_url: '',
+              permalink: 'https://www.instagram.com/p/example1/',
+              media_url: '/fun-zone-image.png',
               caption: 'Which game do you like the most',
               likes: 14,
               comments: 0,
               shares: 0,
             },
             {
+              id: 'mock-2',
               url: 'https://www.instagram.com/p/example2/',
-              media_url: '',
+              permalink: 'https://www.instagram.com/p/example2/',
+              media_url: '/unleash-the-thrill.png',
               caption: "The real battle isn't with dinosaur. It's with your sibling",
               likes: 22,
               comments: 0,
               shares: 0,
             },
             {
+              id: 'mock-3',
               url: 'https://www.instagram.com/p/example3/',
-              media_url: '',
+              permalink: 'https://www.instagram.com/p/example3/',
+              media_url: '/fun-zone-image.png',
               caption: "Dehradun's first Trampoline Park...",
               likes: 1431,
               comments: 65,
@@ -65,24 +71,30 @@ export default function InstagramFeed() {
         // Fallback to mock posts
         setPosts([
           {
+            id: 'mock-1',
             url: 'https://www.instagram.com/p/example1/',
-            media_url: '',
+            permalink: 'https://www.instagram.com/p/example1/',
+            media_url: '/fun-zone-image.png',
             caption: 'Which game do you like the most',
             likes: 14,
             comments: 0,
             shares: 0,
           },
           {
+            id: 'mock-2',
             url: 'https://www.instagram.com/p/example2/',
-            media_url: '',
+            permalink: 'https://www.instagram.com/p/example2/',
+            media_url: '/unleash-the-thrill.png',
             caption: "The real battle isn't with dinosaur. It's with your sibling",
             likes: 22,
             comments: 0,
             shares: 0,
           },
           {
+            id: 'mock-3',
             url: 'https://www.instagram.com/p/example3/',
-            media_url: '',
+            permalink: 'https://www.instagram.com/p/example3/',
+            media_url: '/fun-zone-image.png',
             caption: "Dehradun's first Trampoline Park...",
             likes: 1431,
             comments: 65,
@@ -156,17 +168,20 @@ export default function InstagramFeed() {
             <div className="aspect-square relative bg-black">
               {post.media_url || post.thumbnail_url ? (
                 <Image
-                  src={post.media_url || post.thumbnail_url || ''}
+                  src={post.media_url || post.thumbnail_url || '/fun-zone-image.png'}
                   alt={post.caption || 'Instagram post'}
                   fill
                   className="object-cover"
                   unoptimized
                 />
               ) : (
-                <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-gray-800 to-black">
-                  <span className="text-gray-400 text-xs text-center px-4">
-                    {index === 0 ? 'Go-Karting Image' : index === 1 ? 'Dinosaur Game Image' : 'Trampoline Park Image'}
-                  </span>
+                <div className="absolute inset-0">
+                  <Image
+                    src="/fun-zone-image.png"
+                    alt={post.caption || 'Instagram post'}
+                    fill
+                    className="object-cover"
+                  />
                 </div>
               )}
               {/* Overlay text */}
