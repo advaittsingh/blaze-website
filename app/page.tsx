@@ -6,6 +6,9 @@ import PartyPackages from '@/components/PartyPackages'
 import Image from 'next/image'
 import Link from 'next/link'
 
+// Force Node.js runtime to avoid __dirname errors
+export const runtime = 'nodejs'
+
 export default function Home() {
   return (
     <main className="min-h-screen">

@@ -2,9 +2,6 @@ import type { Metadata } from 'next'
 import './globals.css'
 import localFont from 'next/font/local'
 
-// Force Node.js runtime to avoid __dirname errors
-export const runtime = 'nodejs'
-
 const nasalization = localFont({
   src: './fonts/nasalization.ttf',
   variable: '--font-nasalization',

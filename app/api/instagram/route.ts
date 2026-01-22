@@ -1,5 +1,8 @@
 import { NextResponse } from 'next/server'
 
+// Force Node.js runtime to avoid __dirname errors
+export const runtime = 'nodejs'
+
 // Mock Instagram posts - using mock data to avoid build errors
 export async function GET() {
   // Return mock posts immediately without making external API calls
