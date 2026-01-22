@@ -8,14 +8,8 @@ export function middleware(request: NextRequest) {
 
 export const config = {
   // Match all page routes, exclude static assets and API routes
+  // Using simple pattern to avoid capturing group errors
   matcher: [
-    /*
-     * Match all request paths except for the ones starting with:
-     * - api (API routes)
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.ico (favicon file)
-     */
-    '/((?!api|_next/static|_next/image|favicon.ico).*)',
+    '/((?!api|_next|favicon).*)',
   ],
 }
