@@ -57,7 +57,14 @@ export default function Contact() {
 
       {/* Hero Section */}
       <section className="relative pt-28 pb-32 min-h-[60vh] flex items-center justify-center">
-        <div className="absolute inset-0 bg-[url('/contact-hero.jpg')] bg-cover bg-center opacity-30" />
+        <div className="absolute inset-0">
+          <Image
+            src="/fun-zone-image.png"
+            alt="Contact Hero"
+            fill
+            className="object-cover opacity-30"
+          />
+        </div>
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
           <h1 className="font-nasalization text-4xl md:text-6xl lg:text-7xl mb-6 leading-tight">
@@ -76,8 +83,16 @@ export default function Contact() {
           {locations.map((location) => (
             <div key={location.id} className="grid md:grid-cols-2 gap-8 items-center">
               {/* Map Placeholder */}
-              <div className="aspect-square bg-blaaze-grey rounded-xl flex items-center justify-center">
-                <span className="text-white text-sm uppercase tracking-wide">MAP</span>
+              <div className="relative aspect-square rounded-xl overflow-hidden">
+                <Image
+                  src="/unleash-the-thrill.png"
+                  alt={`${location.name} Map`}
+                  fill
+                  className="object-cover opacity-50"
+                />
+                <div className="absolute inset-0 bg-blaaze-grey/80 flex items-center justify-center">
+                  <span className="text-white text-sm uppercase tracking-wide">MAP</span>
+                </div>
               </div>
 
               {/* Location Info */}
@@ -251,9 +266,12 @@ export default function Contact() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Left Image */}
             <div className="relative aspect-[4/5] rounded-xl overflow-hidden">
-              <div className="w-full h-full bg-gradient-to-br from-green-500/20 to-blue-500/20 flex items-center justify-center">
-                <span className="text-gray-400">Basketball Game Image</span>
-              </div>
+              <Image
+                src="/fun-zone-image.png"
+                alt="FAQ Section"
+                fill
+                className="object-cover"
+              />
             </div>
 
             {/* Right FAQ */}

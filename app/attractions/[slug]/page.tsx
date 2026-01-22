@@ -22,7 +22,7 @@ const attractions: Record<string, {
     name: 'GO-KARTING',
     slogan: 'Fuel Your Thrill. Rule the Track.',
     description: 'Unleash your inner racer at Blaaze! Whether you\'re a speed junkie or a first-time driver, our high-performance go-karts and professionally designed tracks promise an adrenaline-packed experience for all ages. Safe, thrilling, and seriously fun — get ready to race, drift, and dominate the track!',
-    heroImage: '/go-karting.jpg',
+    heroImage: '/fun-zone-image.png',
     location: 'Mall of Dehradun',
     price: '₹400',
     rounds: '5 Rounds',
@@ -30,13 +30,13 @@ const attractions: Record<string, {
     minHeight: '3.5 FT',
     ageLimit: '11+ YRS',
     thrillLevel: 5,
-    galleryImages: ['/go-karting.jpg', '/go-karting.jpg', '/go-karting.jpg', '/go-karting.jpg', '/go-karting.jpg', '/go-karting.jpg']
+    galleryImages: ['/fun-zone-image.png', '/fun-zone-image.png', '/fun-zone-image.png', '/unleash-the-thrill.png', '/unleash-the-thrill.png', '/unleash-the-thrill.png']
   },
   'bowling': {
     name: 'BOWLING',
     slogan: 'Strike the Fun. Roll into Action.',
     description: 'Perfect your bowling skills in our state-of-the-art lanes. Experience the thrill of knocking down pins in our modern, neon-lit bowling alley. Fun for the whole family with professional lanes and a vibrant atmosphere!',
-    heroImage: '/bowling.jpg',
+    heroImage: '/fun-zone-image.png',
     location: 'Mall of Dehradun',
     price: '₹300',
     rounds: '1 Game',
@@ -44,13 +44,13 @@ const attractions: Record<string, {
     minHeight: '3 FT',
     ageLimit: '6+ YRS',
     thrillLevel: 3,
-    galleryImages: ['/bowling.jpg', '/bowling.jpg', '/bowling.jpg', '/bowling.jpg', '/bowling.jpg', '/bowling.jpg']
+    galleryImages: ['/fun-zone-image.png', '/fun-zone-image.png', '/fun-zone-image.png', '/unleash-the-thrill.png', '/unleash-the-thrill.png', '/unleash-the-thrill.png']
   },
   'trampoline': {
     name: 'TRAMPOLINE TIME',
     slogan: 'Bounce Higher. Jump Further.',
     description: 'Defy gravity in our thrilling trampoline park with various zones and activities. Jump, flip, and soar through the air in our safe and exciting trampoline arena. Perfect for kids and adults who love high-flying fun!',
-    heroImage: '/trampoline.jpg',
+    heroImage: '/unleash-the-thrill.png',
     location: 'Mall of Dehradun',
     price: '₹350',
     rounds: '30 Min',
@@ -58,13 +58,13 @@ const attractions: Record<string, {
     minHeight: '3 FT',
     ageLimit: '5+ YRS',
     thrillLevel: 4,
-    galleryImages: ['/trampoline.jpg', '/trampoline.jpg', '/trampoline.jpg', '/trampoline.jpg', '/trampoline.jpg', '/trampoline.jpg']
+    galleryImages: ['/fun-zone-image.png', '/fun-zone-image.png', '/fun-zone-image.png', '/unleash-the-thrill.png', '/unleash-the-thrill.png', '/unleash-the-thrill.png']
   },
   'vr': {
     name: 'VR & SPECIAL ACTIVITIES',
     slogan: 'Enter New Worlds. Experience Reality.',
     description: 'Immerse yourself in virtual reality adventures with cutting-edge VR technology. Step into alternate realities and experience gaming like never before! From action-packed adventures to mind-bending puzzles, we have it all.',
-    heroImage: '/vr.jpg',
+    heroImage: '/fun-zone-image.png',
     location: 'Mall of Dehradun',
     price: '₹500',
     rounds: '1 Session',
@@ -72,13 +72,13 @@ const attractions: Record<string, {
     minHeight: '3 FT',
     ageLimit: '8+ YRS',
     thrillLevel: 5,
-    galleryImages: ['/vr.jpg', '/vr.jpg', '/vr.jpg', '/vr.jpg', '/vr.jpg', '/vr.jpg']
+    galleryImages: ['/fun-zone-image.png', '/fun-zone-image.png', '/fun-zone-image.png', '/unleash-the-thrill.png', '/unleash-the-thrill.png', '/unleash-the-thrill.png']
   },
   'bumper-cars': {
     name: 'BUMPER CARS',
     slogan: 'Bump, Spin, and Laugh!',
     description: 'Get ready to bump, spin, and laugh in our colorful bumper car arena! Perfect for families and friends looking for fun-filled excitement. Crash into friends, spin around, and create unforgettable memories in our neon-lit arena.',
-    heroImage: '/bumper-cars.jpg',
+    heroImage: '/unleash-the-thrill.png',
     location: 'Mall of Dehradun',
     price: '₹250',
     rounds: '5 Min',
@@ -86,13 +86,13 @@ const attractions: Record<string, {
     minHeight: '3 FT',
     ageLimit: '6+ YRS',
     thrillLevel: 4,
-    galleryImages: ['/bumper-cars.jpg', '/bumper-cars.jpg', '/bumper-cars.jpg', '/bumper-cars.jpg', '/bumper-cars.jpg', '/bumper-cars.jpg']
+    galleryImages: ['/fun-zone-image.png', '/fun-zone-image.png', '/fun-zone-image.png', '/unleash-the-thrill.png', '/unleash-the-thrill.png', '/unleash-the-thrill.png']
   },
   'arcade': {
     name: 'ARCADE GAMES',
     slogan: 'Play Hard. Win Big.',
     description: 'Classic and modern arcade games for all ages. Win tickets and redeem prizes! From nostalgic classics to cutting-edge games, we have it all. Play your favorite games and collect tickets to claim amazing rewards!',
-    heroImage: '/arcade.jpg',
+    heroImage: '/fun-zone-image.png',
     location: 'Mall of Dehradun',
     price: '₹200',
     rounds: 'Per Game',
@@ -100,7 +100,7 @@ const attractions: Record<string, {
     minHeight: 'N/A',
     ageLimit: 'All Ages',
     thrillLevel: 3,
-    galleryImages: ['/arcade.jpg', '/arcade.jpg', '/arcade.jpg', '/arcade.jpg', '/arcade.jpg', '/arcade.jpg']
+    galleryImages: ['/fun-zone-image.png', '/fun-zone-image.png', '/fun-zone-image.png', '/unleash-the-thrill.png', '/unleash-the-thrill.png', '/unleash-the-thrill.png']
   },
 }
 

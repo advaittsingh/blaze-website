@@ -11,7 +11,14 @@ export default function PlanAParty() {
 
       {/* HERO */}
       <section className="relative pt-28 pb-40">
-        <div className="absolute inset-0 bg-[url('/party-hero.jpg')] bg-cover bg-center opacity-50" />
+        <div className="absolute inset-0">
+          <Image
+            src="/fun-zone-image.png"
+            alt="Party Hero"
+            fill
+            className="object-cover opacity-50"
+          />
+        </div>
         <div className="absolute inset-0 bg-black/60" />
 
         <div className="relative z-10 max-w-6xl mx-auto px-6">
@@ -92,7 +99,7 @@ export default function PlanAParty() {
           {/* Image */}
           <div className="relative aspect-[3/4]">
             <Image
-              src="/birthday.jpg"
+              src="/fun-zone-image.png"
               alt="Birthday Party"
               fill
               className="object-cover"

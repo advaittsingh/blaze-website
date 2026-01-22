@@ -102,7 +102,14 @@ export default function AboutUs() {
       <section className="py-24 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
           {/* Image */}
-          <div className="h-[360px] bg-[#161616] rounded-xl overflow-hidden" />
+          <div className="relative h-[360px] rounded-xl overflow-hidden">
+            <Image
+              src="/fun-zone-image.png"
+              alt="Why Choose Us"
+              fill
+              className="object-cover"
+            />
+          </div>
 
           {/* Content */}
           <div>
@@ -139,7 +146,14 @@ export default function AboutUs() {
       <section className="py-24 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           {/* Image */}
-          <div className="h-[360px] bg-[#161616] rounded-xl overflow-hidden" />
+          <div className="relative h-[360px] rounded-xl overflow-hidden">
+            <Image
+              src="/unleash-the-thrill.png"
+              alt="Safety Protocols"
+              fill
+              className="object-cover"
+            />
+          </div>
 
           {/* Content */}
           <div>
