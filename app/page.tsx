@@ -6,10 +6,6 @@ import PartyPackages from '@/components/PartyPackages'
 import Image from 'next/image'
 import Link from 'next/link'
 
-// Force Node.js runtime and dynamic rendering to avoid __dirname errors
-export const runtime = 'nodejs'
-export const dynamic = 'force-dynamic'
-
 export default function Home() {
   return (
     <main className="min-h-screen">
