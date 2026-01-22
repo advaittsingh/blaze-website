@@ -4,6 +4,10 @@ const nextConfig = {
   images: {
     domains: [],
   },
+  // Ensure server-side rendering uses Node.js runtime
+  experimental: {
+    serverComponentsExternalPackages: [],
+  },
 }
 
 export default nextConfig
