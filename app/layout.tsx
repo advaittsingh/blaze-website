@@ -1,18 +1,5 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import localFont from 'next/font/local'
-
-const nasalization = localFont({
-  src: './fonts/nasalization.ttf',
-  variable: '--font-nasalization',
-  display: 'swap',
-})
-
-const poppinsMedium = localFont({
-  src: './fonts/Poppins-Medium.ttf',
-  variable: '--font-poppins-medium',
-  display: 'swap',
-})
 
 export const metadata: Metadata = {
   title: 'BLAAZE - Lead The Thrill',
@@ -30,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${nasalization.variable} ${poppinsMedium.variable} font-poppins antialiased`}>
+      <body className="font-poppins antialiased">
         {children}
       </body>
     </html>
