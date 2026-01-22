@@ -141,7 +141,7 @@ export default function Home() {
             <div className="bg-transparent overflow-hidden relative group rounded-lg aspect-[4/5]">
               {/* Image Background */}
               <Image
-                src="/go-karting.jpg"
+                src="/fun-zone-image.png"
                 alt="Go-Karting at BLAAZE"
                 fill
                 className="object-cover"
@@ -162,7 +162,7 @@ export default function Home() {
             <div className="bg-transparent overflow-hidden relative group rounded-lg aspect-[4/5]">
               {/* Image Background */}
               <Image
-                src="/bowling.jpg"
+                src="/unleash-the-thrill.png"
                 alt="Bowling at BLAAZE"
                 fill
                 className="object-cover"
@@ -183,7 +183,7 @@ export default function Home() {
             <div className="bg-transparent overflow-hidden relative group rounded-lg aspect-[4/5]">
               {/* Image Background */}
               <Image
-                src="/trampoline.jpg"
+                src="/fun-zone-image.png"
                 alt="Trampoline at BLAAZE"
                 fill
                 className="object-cover"
@@ -204,7 +204,7 @@ export default function Home() {
             <div className="bg-transparent overflow-hidden relative group rounded-lg aspect-[4/5]">
               {/* Image Background */}
               <Image
-                src="/vr.jpg"
+                src="/unleash-the-thrill.png"
                 alt="VR & Special Activities at BLAAZE"
                 fill
                 className="object-cover"
@@ -225,7 +225,7 @@ export default function Home() {
             <div className="bg-transparent overflow-hidden relative group rounded-lg aspect-[4/5]">
               {/* Image Background */}
               <Image
-                src="/bumper-cars.jpg"
+                src="/fun-zone-image.png"
                 alt="Bumper Cars at BLAAZE"
                 fill
                 className="object-cover"
@@ -246,7 +246,7 @@ export default function Home() {
             <div className="bg-transparent overflow-hidden relative group rounded-lg aspect-[4/5]">
               {/* Image Background */}
               <Image
-                src="/arcade.jpg"
+                src="/unleash-the-thrill.png"
                 alt="Arcade Games at BLAAZE"
                 fill
                 className="object-cover"
@@ -267,7 +267,7 @@ export default function Home() {
             <div className="bg-transparent overflow-hidden relative group rounded-lg aspect-[4/5]">
               {/* Image Background */}
               <Image
-                src="/laser-tag.jpg"
+                src="/fun-zone-image.png"
                 alt="Laser Tag at BLAAZE"
                 fill
                 className="object-cover"
@@ -288,7 +288,7 @@ export default function Home() {
             <div className="bg-transparent overflow-hidden relative group rounded-lg aspect-[4/5]">
               {/* Image Background */}
               <Image
-                src="/escape-room.jpg"
+                src="/unleash-the-thrill.png"
                 alt="Escape Room at BLAAZE"
                 fill
                 className="object-cover"
@@ -309,7 +309,7 @@ export default function Home() {
             <div className="bg-transparent overflow-hidden relative group rounded-lg aspect-[4/5]">
               {/* Image Background */}
               <Image
-                src="/mini-golf.jpg"
+                src="/fun-zone-image.png"
                 alt="Mini Golf at BLAAZE"
                 fill
                 className="object-cover"

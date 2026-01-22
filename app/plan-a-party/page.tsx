@@ -24,21 +24,13 @@ export default function PlanAParty() {
         <div className="relative z-10 max-w-6xl mx-auto px-6">
           <div className="relative bg-black/70 border border-white/10 rounded-xl px-12 py-16 text-center">
 
-            {/* Gifts */}
-            <Image
-              src="/gift.png"
-              alt=""
-              width={44}
-              height={44}
-              className="absolute left-[-22px] top-1/2 -translate-y-1/2"
-            />
-            <Image
-              src="/gift.png"
-              alt=""
-              width={44}
-              height={44}
-              className="absolute right-[-22px] top-1/2 -translate-y-1/2"
-            />
+            {/* Gifts - Using logo as placeholder */}
+            <div className="absolute left-[-22px] top-1/2 -translate-y-1/2 w-11 h-11 bg-red-600 rounded-full flex items-center justify-center">
+              <span className="text-white text-xs font-bold">🎁</span>
+            </div>
+            <div className="absolute right-[-22px] top-1/2 -translate-y-1/2 w-11 h-11 bg-red-600 rounded-full flex items-center justify-center">
+              <span className="text-white text-xs font-bold">🎁</span>
+            </div>
 
             <h1 className="font-nasalization text-4xl md:text-6xl leading-tight mb-6">
               Where Every Celebration Sparks<br />
